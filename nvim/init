@@ -10,6 +10,7 @@ cp -r ./nvim/init.lua ./nvim/lua ./nvim/after ~/.config/nvim/
 # Language servers
 yarn global add bash-language-server
 yarn global add vscode-css-languageserver-bin
+yarn global add vscode-html-languageserver-bin
 yarn global add typescript typescript-language-server
 yarn global add vim-language-server
 git clone git@github.com:phpactor/phpactor
