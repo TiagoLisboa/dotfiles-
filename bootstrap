@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Setup workspace"
+mkdir -p ~/dev
+mkdir -p ~/work
+
+# init zsh

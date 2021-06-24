@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Setup Git"
+cp ./git/global.gitconfig ~/.gitconfig

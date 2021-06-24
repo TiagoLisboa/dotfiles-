@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# conf
+cp -r ./nvim/init.lua ./nvim/lua ./nvim/after ~/.config/nvim/
+
+echo "Run 'nvim +PaqInstall' to finish setup"
+

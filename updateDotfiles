@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -e
+
+## add tmux
+declare -a apps=("git" "nvim")
+
+for app in "${apps[@]}"; do
+    if [[ -f "./$app/updateDotfiles" ]]; then
+        echo "Updating $app"
+        bash "./$app/updateDotfiles"
+    fi
+    if [[ -f "./$app/test" ]]; then
+        echo "Testing $app"
+        bash "./$app/test"
+    fi
+done

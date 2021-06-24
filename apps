@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -e
+
+## add tmux
+declare -a apps=("git" "nvim")
+
+for app in "${apps[@]}"; do
+    echo "Initializing $app"
+    bash "./$app/init"
+    if [[ -f "./$app/test" ]]; then
+        echo "Testing $app"
+        bash "./$app/test"
+    fi
+done

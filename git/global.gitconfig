@@ -1,0 +1,12 @@
+[user]
+	name = Tiago Lisboa
+	email = tiago.lisboa@devsquad.com	
+[core]
+	ignorecase = false
+	editor = nvim
+[color]
+	ui = true
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
