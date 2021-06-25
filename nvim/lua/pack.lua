@@ -24,6 +24,7 @@ require 'paq-nvim' {
 -- view
 'hoob3rt/lualine.nvim'; -- status line
 'kyazdani42/nvim-web-devicons'; -- dev icons
+'kyazdani42/nvim-tree.lua'; -- file explorer
 'crispgm/nvim-tabline'; -- tab line
 'dstein64/nvim-scrollview'; -- scroll bar
 'google/vim-searchindex'; -- search index
