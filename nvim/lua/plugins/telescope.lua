@@ -27,6 +27,15 @@ require('telescope').setup({
     pickers = {
         buffers = {
             sort_lastused = true,
+            preview = true,
+            mappings = {
+                i = {
+                    ["<c-d>"] = require("telescope.actions").delete_buffer,
+                },
+                n = {
+                    ["<c-d>"] = require("telescope.actions").delete_buffer,
+                }
+            }
         }
     }
 })
