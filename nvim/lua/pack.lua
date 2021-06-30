@@ -70,4 +70,8 @@ require 'paq-nvim' {
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
 'vimwiki/vimwiki'; -- vimwiki
+{
+    'phpactor/phpactor',
+    run='composer install --no-dev -o'
+}
 }
