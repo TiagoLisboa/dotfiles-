@@ -6,3 +6,4 @@ require('lspconfig').tsserver.setup({})
 require('lspconfig').vimls.setup({})
 require('lspconfig').vuels.setup({})
 require'lspconfig'.phpactor.setup{}
+require'lspconfig'.intelephense.setup{}
