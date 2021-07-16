@@ -12,4 +12,4 @@ vim.cmd[[colorscheme neon]]
 local c = require("neon.colors")
 
 vim.g.terminal_color_1 = c.red
-vim.g.terminal_color_7 = c.bg0
+vim.g.terminal_color_7 = c.fg
