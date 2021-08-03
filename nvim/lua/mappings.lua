@@ -83,7 +83,7 @@ nvim_set_keymap('v', 'g<c-a>', '<Plug>(dial-increment-additional)', {})
 nvim_set_keymap('v', 'g<c-x>', '<Plug>(dial-decrement-additional)', {})
 
 -- hop.nvim
-set_keymap('n', '<c-h>', '<cmd>HopWord<cr>')
+set_keymap('n', '<leader><leader>', '<cmd>HopWord<cr>')
 
 -- terminal mode
 set_keymap('t', '<Esc>', '<C-\\><C-n>')
