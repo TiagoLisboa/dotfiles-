@@ -43,11 +43,11 @@ require 'paq-nvim' {
 'tpope/vim-surround'; -- toggle surround
 'tpope/vim-abolish'; -- eh, hard to describe, see README
 'tpope/vim-commentary'; -- toggle comment
-# {
-#     'prettier/vim-prettier', -- prettier formatter
-#     run = 'yarn install',
-#     branch = 'release/0.x',
-# };
+-- {
+--     'prettier/vim-prettier', -- prettier formatter
+--     run = 'yarn install',
+--     branch = 'release/0.x',
+-- };
 'christoomey/vim-system-copy'; -- copy to system clipboard
 'monaqa/dial.nvim'; -- <c-a> <c-x> enhancement
 'kana/vim-textobj-user'; -- define textobj by user
@@ -70,8 +70,8 @@ require 'paq-nvim' {
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
 'vimwiki/vimwiki'; -- vimwiki
-# {
-#    'phpactor/phpactor',
-#    run='composer install --no-dev -o'
-# }
+-- {
+--    'phpactor/phpactor',
+--    run='composer install --no-dev -o'
+-- }
 }
