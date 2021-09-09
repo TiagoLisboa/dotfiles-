@@ -26,11 +26,11 @@ require('telescope').setup({
     },
     pickers = {
         buffers = {
-            sort_lastused = true,
+            -- sort_lastused = true,
             sort_mru = true,
             show_all_buffer = true,
-            ignore_current_buffer = true,
-            sorter = require'telescope.sorters'.get_substr_matcher(),
+            -- ignore_current_buffer = true,
+            -- sorter = require'telescope.sorters'.get_substr_matcher(),
             preview = true,
             mappings = {
                 i = {

@@ -77,7 +77,8 @@ require 'paq-nvim' {
 'zchee/deoplete-jedi';
 'sbdchd/neoformat';
 'davidhalter/jedi-vim';
-'neomake/neomake'
+'neomake/neomake';
+'puremourning/vimspector';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'

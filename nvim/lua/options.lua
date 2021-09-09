@@ -7,6 +7,7 @@ cmd('filetype plugin indent on')
 cmd('syntax enable')
 
 g.mapleader=","
+g.vimspector_enable_mappings = 'HUMAN'
 
 -- systematic
 opt.encoding = 'utf-8'
