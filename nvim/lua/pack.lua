@@ -70,6 +70,14 @@ require 'paq-nvim' {
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
 'vimwiki/vimwiki'; -- vimwiki
+{
+    'Shougo/deoplete.nvim',
+    run = ':UpdateRemotePlugins'
+};
+'zchee/deoplete-jedi';
+'sbdchd/neoformat';
+'davidhalter/jedi-vim';
+'neomake/neomake'
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'
