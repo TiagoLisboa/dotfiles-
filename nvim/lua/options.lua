@@ -8,6 +8,7 @@ cmd('syntax enable')
 
 g.mapleader=","
 g.vimspector_enable_mappings = 'HUMAN'
+vim.g.maximizer_set_default_mapping = 0
 
 -- systematic
 opt.encoding = 'utf-8'
