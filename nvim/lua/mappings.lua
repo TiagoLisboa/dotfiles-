@@ -93,3 +93,6 @@ local opts = { noremap = true, silent = true }
 nvim_set_keymap('n', '<F2>', ':MaximizerToggle<CR>', opts)
 nvim_set_keymap('v', '<F2>', ':MaximizerToggle<CR>gv', opts)
 nvim_set_keymap('i', '<F2>', '<C-o>:MaximizerToggle<CR>', opts)
+
+--symbols
+set_keymap('n', '<leader>tt', '<cmd>SymbolsOutline<cr>')

@@ -81,6 +81,7 @@ require 'paq-nvim' {
 'puremourning/vimspector';
 'szw/vim-maximizer';
 'davidhalter/jedi-vim';
+'simrat39/symbols-outline.nvim';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'
