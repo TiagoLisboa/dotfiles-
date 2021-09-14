@@ -76,11 +76,9 @@ require 'paq-nvim' {
 };
 'zchee/deoplete-jedi';
 'sbdchd/neoformat';
-'davidhalter/jedi-vim';
 'neomake/neomake';
 'puremourning/vimspector';
 'szw/vim-maximizer';
-'davidhalter/jedi-vim';
 'simrat39/symbols-outline.nvim';
 -- {
 --    'phpactor/phpactor',
