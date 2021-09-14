@@ -80,6 +80,7 @@ require 'paq-nvim' {
 'neomake/neomake';
 'puremourning/vimspector';
 'szw/vim-maximizer';
+'davidhalter/jedi-vim';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'
