@@ -49,3 +49,6 @@ augroup linenumber
   autocmd InsertLeave * setlocal relativenumber
 augroup END
 
+augroup telescope_disable_autocomplete
+  autocmd FileType TelescopePrompt call deoplete#custom#buffer_option('auto_complete', v:false)
+augroup END

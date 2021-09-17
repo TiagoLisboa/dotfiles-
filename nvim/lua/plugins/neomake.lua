@@ -1,5 +1,6 @@
 local vim = vim
 
-vim.g['neomake_python_enabled_makers'] = ['pylint']
+vineomake = 1
 
-vim.fn.neomake.configure.automake('nrwi', 500)
+vim.call('neomake#configure#automake', 'nrwi', 500)
+

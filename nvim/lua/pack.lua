@@ -75,12 +75,13 @@ require 'paq-nvim' {
     run = ':UpdateRemotePlugins'
 };
 'zchee/deoplete-jedi';
-'sbdchd/neoformat';
+-- 'sbdchd/neoformat';
 'neomake/neomake';
 'puremourning/vimspector';
 'szw/vim-maximizer';
 'simrat39/symbols-outline.nvim';
 'MattesGroeger/vim-bookmarks';
+'davidhalter/jedi-vim';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'
