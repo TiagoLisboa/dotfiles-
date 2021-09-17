@@ -1,5 +1,6 @@
 require('telescope').load_extension('session-lens')
 require('telescope').load_extension('heading')
+require('telescope').load_extension('vim_bookmarks')
 
 local set_keymap = require('../common').set_keymap
 set_keymap(
@@ -14,7 +15,7 @@ set_keymap('n', '<leader>fh', '<cmd>Telescope help_tags<cr>')
 set_keymap('n', '<leader>fl', '<cmd>Telescope lsp_document_symbols<cr>')
 set_keymap('n', '<leader>fk', '<cmd>Telescope keymaps<cr>')
 -- set_keymap('n', '<leader>fm', '<cmd>Telescope heading<cr>')
-set_keymap('n', '<leader>fm', '<cmd>Telescope marks<cr>')
+set_keymap('n', '<leader>fm', '<cmd>Telescope vim_bookmarks all<cr>')
 
 local actions = require('telescope.actions')
 require('telescope').setup({

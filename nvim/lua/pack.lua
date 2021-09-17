@@ -20,6 +20,8 @@ require 'paq-nvim' {
 'rmagatti/auto-session'; -- auto session
 'rmagatti/session-lens'; -- session lens for telescope
 'farmergreg/vim-lastplace'; -- reopen files at your last edit position
+'MattesGroeger/vim-bookmarks'; -- vscode like bookmarks
+'tom-anders/telescope-vim-bookmarks.nvim'; -- telescope integration with bookmarks
 
 -- view
 'hoob3rt/lualine.nvim'; -- status line
@@ -69,21 +71,22 @@ require 'paq-nvim' {
 'hrsh7th/vim-vsnip'; -- snippets
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
+'davidhalter/jedi-vim';
+'zchee/deoplete-jedi';
+'neomake/neomake';
+-- 'sbdchd/neoformat';
+-- {
+--    'phpactor/phpactor',
+--    run='composer install --no-dev -o'
+-- }
+
+-- guess this should be categorized
 'vimwiki/vimwiki'; -- vimwiki
 {
     'Shougo/deoplete.nvim',
     run = ':UpdateRemotePlugins'
 };
-'zchee/deoplete-jedi';
--- 'sbdchd/neoformat';
-'neomake/neomake';
 'puremourning/vimspector';
 'szw/vim-maximizer';
 'simrat39/symbols-outline.nvim';
-'MattesGroeger/vim-bookmarks';
-'davidhalter/jedi-vim';
--- {
---    'phpactor/phpactor',
---    run='composer install --no-dev -o'
--- }
 }
