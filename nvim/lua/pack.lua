@@ -71,7 +71,7 @@ require 'paq-nvim' {
 'hrsh7th/vim-vsnip'; -- snippets
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
-'davidhalter/jedi-vim';
+-- 'davidhalter/jedi-vim';
 'zchee/deoplete-jedi';
 'neomake/neomake';
 -- 'sbdchd/neoformat';
