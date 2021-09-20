@@ -38,6 +38,10 @@ require 'paq-nvim' {
 'tversteeg/registers.nvim'; -- show registers
 'winston0410/cmd-parser.nvim'; -- dependency of range-highlight
 'winston0410/range-highlight.nvim'; -- highlight range lines
+'szw/vim-maximizer';
+'vimwiki/vimwiki'; -- vimwiki
+'folke/todo-comments.nvim';
+'ThePrimeagen/refactoring.nvim';
 
 -- edit
 'phaazon/hop.nvim'; -- jump to anywhere within 2 strokes
@@ -74,6 +78,7 @@ require 'paq-nvim' {
 -- 'davidhalter/jedi-vim';
 'zchee/deoplete-jedi';
 'neomake/neomake';
+'puremourning/vimspector';
 -- 'sbdchd/neoformat';
 -- {
 --    'phpactor/phpactor',
@@ -81,12 +86,9 @@ require 'paq-nvim' {
 -- }
 
 -- guess this should be categorized
-'vimwiki/vimwiki'; -- vimwiki
 {
     'Shougo/deoplete.nvim',
     run = ':UpdateRemotePlugins'
 };
-'puremourning/vimspector';
-'szw/vim-maximizer';
 'simrat39/symbols-outline.nvim';
 }

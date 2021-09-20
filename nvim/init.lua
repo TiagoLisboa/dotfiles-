@@ -30,3 +30,6 @@ require('plugins.maximizer')
 require('plugins.neomake')
 require('plugins.vimspector')
 -- require('plugins.jedi')
+
+require('plugins.todo-comments')
+require('plugins.refactoring')
