@@ -60,6 +60,7 @@ set_keymap('n', '<leader>ls', '<cmd>lua vim.lsp.buf.document_symbol()<cr>')
 set_keymap('n', '<leader>lS', '<cmd>lua vim.lsp.buf.workspace_symbol()<cr>')
 set_keymap('n', '<leader>lR', '<cmd>lua vim.lsp.buf.rename()<cr>')
 set_keymap('n', '<leader>lf', '<cmd>lua vim.lsp.buf.formatting()<cr>')
+set_keymap('n', '<leader>lc', '<cmd>lua vim.lsp.buf.code_action()<cr>')
 
 -- plug manager
 set_keymap('n', '<leader>pi', '<cmd>PaqInstall<cr>')
