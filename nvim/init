@@ -18,6 +18,9 @@ yarn global add vim-language-server
 # composer install
 # sudo ln -s ./bin/phpactor /usr/local/bin/phpactor
 # cd ..
+pip install -U setuptools
+pip install python-lsp-server[all]
+pip install isort
 
 echo "Run 'nvim +PaqInstall' to finish setup"
 
