@@ -3,6 +3,8 @@ local g = vim.g
 
 set_keymap('n', '<leader>nn', '<cmd>NvimTreeToggle<cr>')
 
+require('nvim-tree').setup()
+
 g.nvim_tree_icons = {
     default = '',
     symlink = '',

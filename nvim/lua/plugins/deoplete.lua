@@ -1,4 +1,4 @@
 local vim = vim
 
-vim.g['deoplete#enable_at_startup'] = 1
+-- vim.g['deoplete#enable_at_startup'] = 1
 

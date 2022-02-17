@@ -24,7 +24,7 @@ require('plugins.vimwiki')
 require('plugins.vsnip')
 require('plugins.nvimtree')
 
-require('plugins.deoplete')
+-- require('plugins.deoplete')
 require('plugins.maximizer')
 require('plugins.neoformat')
 require('plugins.neomake')

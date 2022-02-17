@@ -2,7 +2,7 @@ local vim = vim
 
 vim.cmd('packadd paq-nvim')
 
-require 'paq-nvim' {
+require 'paq' {
 { 'savq/paq-nvim', opt = true };
 
 -- lib
@@ -87,9 +87,9 @@ require 'paq-nvim' {
 -- }
 
 -- guess this should be categorized
-{
-    'Shougo/deoplete.nvim',
-    run = ':UpdateRemotePlugins'
-};
+-- {
+--     'Shougo/deoplete.nvim',
+--     run = ':UpdateRemotePlugins'
+-- };
 'simrat39/symbols-outline.nvim';
 }
