@@ -4,3 +4,4 @@ require('tabline').setup({})
 require('range-highlight').setup({
     highlight = 'Visual',
 })
+require('hop').setup()
