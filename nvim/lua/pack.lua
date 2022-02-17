@@ -41,7 +41,7 @@ require 'paq-nvim' {
 'szw/vim-maximizer';
 'vimwiki/vimwiki'; -- vimwiki
 'folke/todo-comments.nvim';
-'ThePrimeagen/refactoring.nvim';
+'chrisbra/NrrwRgn';
 
 -- edit
 'phaazon/hop.nvim'; -- jump to anywhere within 2 strokes
@@ -59,6 +59,7 @@ require 'paq-nvim' {
 'kana/vim-textobj-user'; -- define textobj by user
 'haya14busa/vim-textobj-number'; -- number textobj
 'AndrewRadev/splitjoin.vim'; -- split and join in vim
+'ThePrimeagen/refactoring.nvim';
 
 -- git
 'tpope/vim-fugitive'; -- git wrapper
