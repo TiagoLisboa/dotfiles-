@@ -80,7 +80,7 @@ require 'paq-nvim' {
 'zchee/deoplete-jedi';
 'neomake/neomake';
 'puremourning/vimspector';
--- 'sbdchd/neoformat';
+'sbdchd/neoformat';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'

@@ -26,7 +26,7 @@ require('plugins.nvimtree')
 
 require('plugins.deoplete')
 require('plugins.maximizer')
--- require('plugins.neoformat')
+require('plugins.neoformat')
 require('plugins.neomake')
 require('plugins.vimspector')
 -- require('plugins.jedi')
