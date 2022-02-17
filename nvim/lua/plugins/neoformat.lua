@@ -8,3 +8,7 @@ vim.g['neoformat_basic_format_retab'] = 1
 
 -- Enable alignment
 vim.g['neoformat_basic_format_align'] = 1
+
+vim.g['neoformat_enabled_python'] = { 'yapf', 'isort' }
+
+vim.g['neoformat_run_all_formatters'] = 1
