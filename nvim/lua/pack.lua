@@ -77,10 +77,10 @@ require 'paq' {
 'hrsh7th/vim-vsnip-integ'; -- vsnip integration for nvim-compe
 'mattn/emmet-vim'; -- html/css snippets
 -- 'davidhalter/jedi-vim';
-'zchee/deoplete-jedi';
-'neomake/neomake';
+-- 'zchee/deoplete-jedi';
+-- 'neomake/neomake';
 'puremourning/vimspector';
-'sbdchd/neoformat';
+-- 'sbdchd/neoformat';
 -- {
 --    'phpactor/phpactor',
 --    run='composer install --no-dev -o'
