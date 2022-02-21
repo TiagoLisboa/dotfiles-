@@ -1,5 +1,5 @@
 local util = require"lspconfig.util"
-local venv = require"plugins.lsp.utils".get_python_venv()
+local venv = require"plugins.pylsp.utils".get_python_venv()
 
 require'lspconfig'.pylsp.setup{
     cmd = {"pylsp"},
