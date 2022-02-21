@@ -92,4 +92,5 @@ require 'paq' {
 --     run = ':UpdateRemotePlugins'
 -- };
 'simrat39/symbols-outline.nvim';
+'folke/trouble.nvim';
 }

@@ -5,3 +5,4 @@ require('range-highlight').setup({
     highlight = 'Visual',
 })
 require('hop').setup()
+require('trouble').setup{}
